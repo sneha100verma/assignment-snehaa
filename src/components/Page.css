@@ -1,0 +1,218 @@
+
+.content
+{   padding: 6rem;
+    flex-direction: column;
+    display: flex;
+    color: #843a9b;
+    margin-left: 5rem;
+}
+.base
+{
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+
+
+.main h3:hover{
+    color: rgb(97, 0, 0);
+    margin-top: 1rem;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+.b
+{
+    position: absolute;
+width: fit-content;
+height: fit-content;
+left: 187px;
+top: 179px;
+
+background: #FFFFFF;
+box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+}
+.col-sm
+{
+   margin-right: 0.6rem;
+   
+}
+.e
+{
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.e button{
+    background-color: #843a9b;
+    color: white;
+    letter-spacing: normal;
+    align-items: center;
+    border-radius: 10rem;
+}
+.q{
+    width: 200px;
+    ;
+    margin-left: -25rem;
+}
+.q h4{
+ 
+    height: 28px;
+    left: 766px;
+    top: 179px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    width: max-content;
+}
+
+.w{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.q Button{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+
+}
+.com{
+    flex-direction: row;
+    display: flex;
+    color: black;
+    padding: auto;
+}
+
+.co1
+{
+    flex-direction: row;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.co1 img{
+    height: 29px;
+    width: 29px;
+    padding: 0.3rem;
+    background-image: url("ec.png");
+    margin: 0.5rem;
+    border-radius: 50%;
+background-size:auto; 
+
+}
+.xx
+{
+    margin-right: 1rem;
+    margin-left: 0.6rem;
+    line-height: 10pxpx;
+     align-items: center;
+     width: 280px;
+}
+.xx p 
+{
+    margin-top: -1rem;
+}
+.one
+{
+    margin: 1.5rem;
+}
+.two{
+    margin: 1.5rem;
+}
+.base h2{
+    margin-left : 3rem;
+    margin-bottom: -1rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .w{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:400px;
+        align-items: baseline;
+        margin-bottom: -10rem;
+    
+    }
+    .col-sm
+{
+   margin-right: 0.6rem;
+   font-size:medium;
+   
+}
+    
+
+
+
+    .b
+    {
+    width: 300px;
+    height: 190px;
+    left: 150px;
+    top: 160px;
+    line-height:normal;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+    }
+    .com{
+        flex-direction: column;
+        display: flex;
+        color: black;
+        padding: auto;
+    }
+
+.two
+{
+    margin-top: -1.5rem;
+}
+
+.j{
+
+    margin-left: 2rem;
+}
+.n{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.e
+{
+margin-left: 2rem;
+margin-bottom: 3rem;
+}
+
+.e button{
+   align-self: center;
+}
+.row
+{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.base
+{
+    margin-top: 8rem;
+}
+.q{
+    margin-top: 5rem;
+}
+}

@@ -1,0 +1,316 @@
+.content
+{padding: 6rem;
+    flex-direction: column;
+    display: flex;
+    color: #843a9b;
+}
+.g{
+    width: fit-content;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.car h5{
+    margin-top: -1rem;
+    font-weight: 100;
+
+
+
+}
+
+.content h4:hover{
+    color: #f14800;
+    cursor: pointer;
+}
+
+.content h4{
+    width: 159px;
+height: 24px;
+left: 187px;
+top: 634px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #800080;
+}
+.car
+{
+  display: inline-block;
+    width: 350px;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    margin-right: 0.4rem;
+    border-radius: 25px;
+    color: white;
+    line-height: 25px;
+    box-shadow: 5px 5px 10px #ccc;
+    background: linear-gradient(150deg, #f14800 ,#843a9b 100%);
+}
+
+.btn
+{
+
+    font-weight: 100;
+    border-radius: 0.5rem;
+    border-color: grey;
+    height: 35px;
+    width: 8.8rem;
+    margin-top: -1rem;
+    background: #ffffff;
+    letter-spacing: 10px;
+     font-size: 14px;
+
+}
+
+.btn:hover{
+    background: #f76d4b;
+    cursor: pointer;
+
+
+}
+
+
+.t{
+    font-weight: 100;
+    border-color: white;
+    border-radius: 16rem;
+    height: auto;
+    padding-top: 0.4rem;
+    padding-left: 0.8rem;
+    padding-bottom: 0.4rem;
+    padding-right: 0.8rem;
+    width: auto;
+    margin: 0.5rem;
+    color: white;
+    letter-spacing: normal;
+    background: transparent;
+    font-size: 12px;
+    
+
+}
+.upper
+{
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper p{
+    font-weight: 100;
+}
+
+.lower
+{
+
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.lower p1{
+    margin-left: 0.5rem;
+    font-weight: bold;
+
+}
+
+.lower p{
+    font-weight: 100;
+
+}
+.ss
+
+{
+    height: 100px;
+    margin-top: -20px;
+    overflow-y: scroll;
+}
+
+.wrapper
+{
+flex-direction: row;
+display: flex;
+overflow-x:scroll;
+
+}
+
+
+
+.w{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+
+}
+
+.p{
+    width: 150px;
+    height: 24px;
+    left: 187px;
+    top: 151px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.b{
+    align-items: center;
+    background: white;
+    color: black;
+   
+    padding: 1rem;
+    width: 150px;
+    height: 40x;
+   box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+border-radius: 20px;
+
+}
+
+.b h2{
+   
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+
+/* Inside auto layout */
+
+
+/* identical to box height */
+
+
+color: #800080;
+    
+}
+
+.b h3{
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+/* identical to box height */
+margin-right: 3rem;
+
+
+color: #000000;
+}
+
+.content p3
+{
+    color: black;
+    font-weight: 600;
+    font-size: large;
+    margin-left: 0.3rem;
+}
+.v{
+flex-direction: row;
+display: flex;
+align-items: center;
+}
+
+@media screen and (max-width: 1040px) {
+   
+
+    .content
+{   padding: 5rem;
+    flex-direction: column;
+    display: flex;
+    color: #843a9b;
+}
+
+    .wrapper
+{
+flex-direction: column;
+display: flex;
+width: 350px;
+align-items: baseline;
+
+}
+
+
+.car
+{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: center;
+ 
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 5px 5px 10px #ccc;
+    background: linear-gradient(150deg, #f14800 ,#843a9b 100%);
+}
+
+
+
+.p{
+    width: 140px;
+    height: 22px;
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.w{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+}
+
+.b{
+align-items: center;
+    background: white;
+    color: black;
+    font-size: 15px;
+    padding: 1rem;
+    line-height: 0.5rem;
+    width: 90px;
+    height: 60px;
+   box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+border-radius: 20px;
+margin-left: 1rem;
+}
+.content p3
+{
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    margin-left: 0.2rem;
+}
+.main
+{     display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+}

@@ -1,0 +1,187 @@
+.header
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position:fixed ;
+   width: 100%;
+   height: 90px;
+   background-color: white;
+   transition: 0.5s;
+   z-index: 10;
+}
+
+
+
+
+
+.header h1:hover
+{
+  
+   height: 38px;
+   width: 38px;
+   color: rgb(122, 35, 4);
+   cursor: pointer;
+  
+}
+
+
+.img
+{
+  height: 24px;
+  width: 24px;
+}
+
+
+.img1:hover
+{
+   
+   cursor: pointer;
+   
+
+}
+.img1
+{
+   height: 15px;
+   width: 15px;
+}
+
+
+
+
+.nav-menu
+ {
+    display: flex;
+  margin-right: 2rem;
+  align-items: center;
+ }
+
+
+
+ .nav-menu p1:hover
+ {
+   color:#843a9b;
+   cursor: pointer;
+   font-size: large;
+ }
+ .f
+ {
+   display: flex;
+   align-items: center;
+
+   
+ }
+
+ .nav-menu h3{
+   width: 111px;
+   height: 22px;
+   
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 123.5%;
+   /* or 22px */
+   
+   text-align: center;
+   
+   color: #800080;
+ }
+ 
+.nav-menu p1
+{
+   width: 140px;
+height: 22px;
+margin-right: auto;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+
+text-align: center;
+
+color: rgba(128, 0, 128, 0.25);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.header Button{
+display: none;}
+
+
+
+
+.header h1{
+   color: #843a9b;
+   margin-left: 0.5rem;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+ @media screen and (max-width: 1040px) {
+   .nav-menu
+   {
+      display: none;
+   }
+   .header Button{
+      display: flex;
+      width: fit-content;
+      height: 24px;
+      align-items: center;
+      padding: 0.5rem;
+      background-color: #800080;
+      justify-content: space-between;
+      border: none;
+      color: white;
+   margin-right: 1rem;
+      font-size: 16px;
+     
+      line-height: 24px;
+
+   
+      
+     }
+
+   .header Button p7 
+     { letter-spacing: normal;
+   color: white;
+   background-color: #800080;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+}
+     
+     .header Button:hover
+     {    background-color: #800080;
+
+     }
+
+     .logo
+     {
+      width: 160px;
+     height: 45px;
+     mix-blend-mode: normal;
+
+     }
+
+
+   }
+    
+    
+ 
+
+ .j
+ {
+   display: flex;
+   flex-direction: row;
+   width: 200px;
+   align-items: center;
+   margin-left: 1rem;
+ }
